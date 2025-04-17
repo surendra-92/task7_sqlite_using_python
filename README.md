@@ -36,7 +36,30 @@ Plotted Bar Chart Using Matplotlib   <br>
 
 Saved the Plot as an Image   <br>
 → Used plt.savefig('filename.png')  <br>
-→ Called before plt.show() to avoid blank images   <br>  
+→ Called before plt.show() to avoid blank images   <br>   
+
+
+1.How did you connect Python to a database?
+ A. import sqlite3 
+    conn = sqlite3.connect('sales_data') 
+    df.to_sql('sales_data', conn, index=False, if_exists='replace') <br>
+2.What SQL query did you run? <br>
+A.SELECT <br>
+            Order_No,  <br>
+            SUM(Quantity) as Total_Quantity,  <br>
+            SUM(Quantity * Price) as Total_Revenue   <br>
+     FROM sales_data   <br>
+     GROUP BY Order_No  <br>
+     ORDER BY Total_Revenue DESC  <br>
+     LIMIT 10;  <br>
+          
+2.What does GROUP BY do?   <br>
+A.gr
+How did you calculate revenue?
+How did you visualize the result?
+What does pandas do in your code?
+What’s the benefit of using SQL inside Python?
+Could you run the same SQL query directly in DB Browser for SQLite?
 
 
 
