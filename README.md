@@ -1,0 +1,1 @@
+# task7_sqlite_using_python
