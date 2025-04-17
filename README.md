@@ -7,4 +7,4 @@ Load into pandas: import pandas as pd df = pd.read_sql_query(query, conn) <br>
 Print results: print(df) ,br.
 Plot simple bar chart: df.plot(kind='bar', x='product', y='revenue') <br>
 Save chart if needed: plt.savefig("sales_chart.png")  
-
+https://github.com/surendra-92/task7_sqlite_using_python/blob/main/task7.ipynb
