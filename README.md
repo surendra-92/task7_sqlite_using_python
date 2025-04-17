@@ -1,7 +1,7 @@
 # task7_sqlite_using_python
 
-https://github.com/surendra-92/task7_sqlite_using_python/blob/main/task7.ipynb
- Top 10 order with total Revenue 
+https://github.com/surendra-92/task7_sqlite_using_python/blob/main/task7.ipynb  <br>
+ Top 10 order with total Revenue  
  Order_No <br> 
  Total_revenue  <br>
  Total_Quantity <br> 
@@ -36,7 +36,9 @@ Plotted Bar Chart Using Matplotlib   <br>
 
 Saved the Plot as an Image   <br>
 → Used plt.savefig('filename.png')  <br>
-→ Called before plt.show() to avoid blank images   <br>
+→ Called before plt.show() to avoid blank images   <br>  
+
+
 
 
 
